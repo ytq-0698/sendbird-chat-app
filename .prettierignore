@@ -1,0 +1,16 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# storybook
+storybook-static
+
+# codegen
+/src/__generated__/
+
+pnpm-lock.yaml
+
+.github/workflows/actions.yml

@@ -105,3 +105,24 @@ a {
     color-scheme: dark;
   }
 }
+
+.chat-window {
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.chat-window div {
+  margin-bottom: 10px;
+}
+
+input {
+  width: calc(100% - 60px);
+  padding: 5px;
+}
+
+button {
+  width: 50px;
+  padding: 5px;
+}

@@ -106,23 +106,27 @@ a {
   }
 }
 
-.chat-window {
-  border: 1px solid #ccc;
-  padding: 10px;
-  height: 300px;
-  overflow-y: scroll;
+.customized-app {
+  height: 100vh;
+  display: flex;
 }
 
-.chat-window div {
-  margin-bottom: 10px;
+/* will be duplicated */
+.sendbird-channel-preview__avatar .sendbird-chat-header__avatar {
+  width: 56px !important;
+  height: 56px !important;
+}
+.sendbird-channel-preview__avatar
+  .sendbird-chat-header__avatar
+  .sendbird-image-renderer.sendbird-avatar-img {
+  width: 56px !important;
+  height: 56px !important;
 }
 
-input {
-  width: calc(100% - 60px);
-  padding: 5px;
+.customized-app .sendbird-channel-settings {
+  height: auto;
 }
 
-button {
-  width: 50px;
-  padding: 5px;
+.customized-app .sendbird-app__settingspanel-wrap {
+  height: 100%;
 }

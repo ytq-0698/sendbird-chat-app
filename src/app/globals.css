@@ -125,8 +125,11 @@ a {
 
 .customized-app .sendbird-channel-settings {
   height: auto;
+  flex: 1;
 }
 
 .customized-app .sendbird-app__settingspanel-wrap {
   height: 100%;
+  display: flex;
+  flex-direction: column;
 }

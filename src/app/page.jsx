@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 import "@sendbird/uikit-react/dist/index.css";
 import Layout from "./components/Layout";
 
-const DynamicAppWithNoSSR = dynamic(() => import("@/app/components/Chat"), {
+const DynamicAppWithNoSSR = dynamic(() => import("./components/Chat"), {
   ssr: false,
   loading: () => (
     <div className="flex justify-center items-center h-screen w-full">

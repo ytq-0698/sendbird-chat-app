@@ -7,7 +7,7 @@ function ChatApp() {
   return (
     // The chat interface can expand up to the dimensions of your parent component.
     // To achieve a full-screen mode, apply the following CSS rules to the parent element.
-    <div style={{ width: "100vw", height: "100vh" }}>
+    <div style={{ width: "100vw", height: "100%" }}>
       <SBProvider
         // You can find your Sendbird application ID on the Sendbird dashboard.
         appId="EFFF7270-B6D0-4CCE-86DC-64FD6686985F"

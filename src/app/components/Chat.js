@@ -10,7 +10,7 @@ function ChatApp() {
     <div style={{ width: "100vw", height: "100%" }}>
       <SBProvider
         // You can find your Sendbird application ID on the Sendbird dashboard.
-        appId="EFFF7270-B6D0-4CCE-86DC-64FD6686985F"
+        appId="13F7E988-6295-4D2E-A71D-E197E06DD354"
         // Specify the user ID you've created on the dashboard.
         // Or you can create a user by specifying a unique userId.
         userId="1"

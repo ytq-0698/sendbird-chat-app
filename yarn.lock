@@ -8,11 +8,9 @@
   integrity sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==
 
 "@babel/runtime@^7.21.0":
-  version "7.24.7"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.24.7.tgz#f4f0d5530e8dbdf59b3451b9b3e594b6ba082e12"
-  integrity sha512-UwgBRMjJP+xv857DCngvqXI3Iq6J4v0wXmwc6sapg+zyhbwmQX67LUEFrkK5tbyJ30jGuG3ZvWpBiB9LCy1kWw==
-  dependencies:
-    regenerator-runtime "^0.14.0"
+  version "7.28.2"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.28.2.tgz#2ae5a9d51cc583bd1f5673b3bb70d6d819682473"
+  integrity sha512-KHp2IflsnGywDjBWDkR9iEqiWSpc8GIi0lgTT3mOElT0PP1tG26P4tmFI2YvAdzgq9RGyoHZQEIEdZy6Ec5xCA==
 
 "@eslint-community/eslint-utils@^4.2.0":
   version "4.4.0"
@@ -239,39 +237,39 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.10.3.tgz#391d528054f758f81e53210f1a1eebcf1a8b1d20"
   integrity sha512-qC/xYId4NMebE6w/V33Fh9gWxLgURiNYgVNObbJl2LZv0GUUItCcCqC5axQSwRaAgaxl2mELq1rMzlswaQ0Zxg==
 
-"@sendbird/chat@^4.12.3":
-  version "4.12.10"
-  resolved "https://registry.yarnpkg.com/@sendbird/chat/-/chat-4.12.10.tgz#86fc9706b1b18daff5ecae29af7c5362b97991b5"
-  integrity sha512-3++B5m4RFYhpFl4gi/vvxiHWhHu1lf3FG4PcZL1YHUgBgmbjRnhViJ2NLPXOXvbHmQvp6GMhmrPmQ5LZ0ZI7Ew==
+"@sendbird/chat@^4.19.2":
+  version "4.19.5"
+  resolved "https://registry.yarnpkg.com/@sendbird/chat/-/chat-4.19.5.tgz#ce45f4cd8bbe915fbaa9ffd066634bd9e42014fc"
+  integrity sha512-GjdCATd84asyu7kjxDlz9fHRtBMVyLnSgIxC9rPmBCIHN+pLoBRVKDSQdslVzQ/QWUFUlFPAr6SfcVW4+j/2Eg==
 
-"@sendbird/react-uikit-message-template-view@0.0.1-alpha.76":
-  version "0.0.1-alpha.76"
-  resolved "https://registry.yarnpkg.com/@sendbird/react-uikit-message-template-view/-/react-uikit-message-template-view-0.0.1-alpha.76.tgz#4338b5a3f08e227db20ef1e8ceb3512b10cc14b3"
-  integrity sha512-mZKPAXY1ktABzzwPHnZTHBJRAKMEHvvQQON5rxekmfjoaHvHdywLyShgcrtcWHRHOXRhG+gejAhr7scMktZ7Lw==
+"@sendbird/react-uikit-message-template-view@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@sendbird/react-uikit-message-template-view/-/react-uikit-message-template-view-0.0.10.tgz#e595b81243edfe169ca62861638d7c6d614b50d4"
+  integrity sha512-epd2wDEF1PB56rvjL7qXurKnglrr0IDT9y+fEV26liSrFB+Vx1+g63mrM0Qiyf8/0rDB+qyi30tM4niuJdh4Kg==
   dependencies:
-    "@sendbird/uikit-message-template" "^0.0.1-alpha.76"
+    "@sendbird/uikit-message-template" "^0.0.10"
 
-"@sendbird/uikit-message-template@^0.0.1-alpha.76":
-  version "0.0.1-alpha.77"
-  resolved "https://registry.yarnpkg.com/@sendbird/uikit-message-template/-/uikit-message-template-0.0.1-alpha.77.tgz#91b22f11be00b54b2641c99d077dd13dfd35f7a5"
-  integrity sha512-59XWFQBDFgawKpvsr3uYI/qsb0W6Gsj4XUrI26NsdtDD7ZQIG7Bf8Oqr3rOzdVEPbc/Nte2TVXKrafOvV6w5FQ==
+"@sendbird/uikit-message-template@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@sendbird/uikit-message-template/-/uikit-message-template-0.0.10.tgz#cefb0aec5102014c605de5d5eab9136922b2a0b8"
+  integrity sha512-m9nD3KZhILBO8RKAvFI5KSjAHHhbw6s7QE6YzSmEntuxBMv4c9tUV7zO6BY5ZtBrsUBPn00BoFR3FSwu2BvBvg==
 
-"@sendbird/uikit-react@^3.14.11":
-  version "3.14.11"
-  resolved "https://registry.yarnpkg.com/@sendbird/uikit-react/-/uikit-react-3.14.11.tgz#79117be53a5886f47062b90c6d5f08aeeb16b759"
-  integrity sha512-ybp/pEyBgIuhtYuGLjaqJxK7j/AEuMZ2SDFC1YDamZtXLjyiFCAwXAm3XV21Q1WfqLw00Ie1W6Q7fAVBxmMA/Q==
+"@sendbird/uikit-react@^3.16.12":
+  version "3.16.12"
+  resolved "https://registry.yarnpkg.com/@sendbird/uikit-react/-/uikit-react-3.16.12.tgz#6d5a60b19143c41c7ec8bd6a1b28d82912f0ec2f"
+  integrity sha512-D+iduWgtGy+RlUmowavDkW7zxxvpibA1kdOeWZQP/lnY/XGrpdR5HdHQamLVP3RecpgEKx4l8Q7Gx3iadIEIMQ==
   dependencies:
-    "@sendbird/chat" "^4.12.3"
-    "@sendbird/react-uikit-message-template-view" "0.0.1-alpha.76"
-    "@sendbird/uikit-tools" "0.0.1-alpha.76"
+    "@sendbird/chat" "^4.19.2"
+    "@sendbird/react-uikit-message-template-view" "^0.0.10"
+    "@sendbird/uikit-tools" "^0.0.10"
     css-vars-ponyfill "^2.3.2"
     date-fns "^2.16.1"
-    dompurify "^3.0.1"
+    dompurify "^3.2.4"
 
-"@sendbird/uikit-tools@0.0.1-alpha.76":
-  version "0.0.1-alpha.76"
-  resolved "https://registry.yarnpkg.com/@sendbird/uikit-tools/-/uikit-tools-0.0.1-alpha.76.tgz#7f293aaa61089b644a9f4ca5f7929ce4f0d8885f"
-  integrity sha512-YbKsbpacI1OIvTGviUwuAAu7HPb/BeCxlo2AW6kyvRbNglocVxxcqvHW8Oe31r2oq98spEt7TPLMDuNyNNM5AA==
+"@sendbird/uikit-tools@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@sendbird/uikit-tools/-/uikit-tools-0.0.10.tgz#b522339426e0a6f859047ac1e4c1bf695f6dbef9"
+  integrity sha512-HRc7vLo2XASpbL0QtUR2r5py1pcy+1xTgIqUWxsJp8/ih+YbnrLMNz6hJgAwBEtpw5+d1fhY+ZzvWdRihQX5ew==
 
 "@swc/counter@^0.1.3":
   version "0.1.3"
@@ -315,6 +313,11 @@
   dependencies:
     "@types/prop-types" "*"
     csstype "^3.0.2"
+
+"@types/trusted-types@^2.0.7":
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/@types/trusted-types/-/trusted-types-2.0.7.tgz#baccb07a970b91707df3a3e8ba6896c57ead2d11"
+  integrity sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==
 
 "@typescript-eslint/parser@^5.4.2 || ^6.0.0 || 7.0.0 - 7.2.0":
   version "7.2.0"
@@ -906,10 +909,12 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
-dompurify@^3.0.1:
-  version "3.1.5"
-  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-3.1.5.tgz#2c6a113fc728682a0f55684b1388c58ddb79dc38"
-  integrity sha512-lwG+n5h8QNpxtyrJW/gJWckL+1/DQiYMX8f7t8Z2AZTPw1esVrqjI63i7Zc2Gz0aKzLVMYC1V1PL/ky+aY/NgA==
+dompurify@^3.2.4:
+  version "3.2.6"
+  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-3.2.6.tgz#ca040a6ad2b88e2a92dc45f38c79f84a714a1cad"
+  integrity sha512-/2GogDQlohXPZe6D6NOgQvXLPSYBqIWMnZ8zzOhn09REE4eyAzb+Hed3jhoM9OkuaJ8P6ZGTTVWQKAi8ieIzfQ==
+  optionalDependencies:
+    "@types/trusted-types" "^2.0.7"
 
 eastasianwidth@^0.2.0:
   version "0.2.0"
@@ -2462,11 +2467,6 @@ reflect.getprototypeof@^1.0.4:
     get-intrinsic "^1.2.4"
     globalthis "^1.0.3"
     which-builtin-type "^1.1.3"
-
-regenerator-runtime@^0.14.0:
-  version "0.14.1"
-  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.14.1.tgz#356ade10263f685dda125100cd862c1db895327f"
-  integrity sha512-dYnhHh0nJoMfnkZs6GmmhFknAGRrLznOu5nc9ML+EJxGvrx6H7teuevqVqCuPcPK//3eDrrjQhehXVx9cnkGdw==
 
 regexp.prototype.flags@^1.5.1, regexp.prototype.flags@^1.5.2:
   version "1.5.2"

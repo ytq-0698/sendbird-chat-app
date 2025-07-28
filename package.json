@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@react-google-maps/api": "^2.19.3",
-    "@sendbird/uikit-react": "^3.14.11",
+    "@sendbird/uikit-react": "^3.16.12",
     "autoprefixer": "^10.4.19",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.1.3",
